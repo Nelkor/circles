@@ -1,0 +1,28 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="20"
+  height="20"
+  stroke="teal"
+  stroke-width="3"
+>
+  <line
+    x1="-4"
+    y1="4"
+    x2="4"
+    y2="-4"
+  />
+
+  <line
+    x1="0"
+    y1="20"
+    x2="20"
+    y2="0"
+  />
+
+  <line
+    x1="16"
+    y1="24"
+    x2="24"
+    y2="16"
+  />
+</svg>
