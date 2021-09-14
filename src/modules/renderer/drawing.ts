@@ -38,9 +38,6 @@ export const startDrawing = (): void => {
     throw new Error('can not create canvas pattern')
   }
 
-  ctx.strokeStyle = '#a9a9a9'
-  ctx.lineWidth = 2
-
   const draw = () => {
     requestAnimationFrame(draw)
 
@@ -76,6 +73,9 @@ export const startDrawing = (): void => {
     ctx.drawImage(canvas, topLeft.x, topLeft.y)
 
     ///
+    ctx.strokeStyle = '#3E4242'
+    ctx.lineWidth = 3
+
     points.forEach(drawRing)
   }
 

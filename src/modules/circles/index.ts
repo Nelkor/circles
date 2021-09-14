@@ -1,5 +1,3 @@
-type setCircle = (x: number, y: number) => void
-
 export const RADIUS = 200
 
 export const points: Point[] = [
@@ -8,14 +6,6 @@ export const points: Point[] = [
   { x: 450, y: 550 },
 ]
 
-export const setFirstCircle: setCircle = (x, y) => {
-  points[0] = { x, y }
-}
-
-export const setSecondCircle: setCircle = (x, y) => {
-  points[1] = { x, y }
-}
-
-export const setThirdCircle: setCircle = (x, y) => {
-  points[2] = { x, y }
+export const setCircleByIndex = (index: number, x: number, y: number): void => {
+  points[index] = { x, y }
 }
